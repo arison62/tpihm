@@ -22,7 +22,7 @@ class IotProvider extends ChangeNotifier {
   void _initSocket() {
     // Configuration Socket.io
     socket = io.io(
-      'http://localhost:3000',
+      'https://tpihm-decc9.sevalla.app/',
       io.OptionBuilder()
           .setTransports(['websocket'])
           .disableAutoConnect()
